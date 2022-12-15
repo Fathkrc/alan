@@ -14,13 +14,13 @@ public class DataTypesiw {
                 try{
                     s=scan.next();
                     long l=Long.valueOf(s);
-                    if(l>Byte.MIN_VALUE&l<Byte.MAX_VALUE){
+                    if(l>=Byte.MIN_VALUE&l<=Byte.MAX_VALUE){
                         System.out.println(s+" can be fitted in:"+
                                 "\n* byte "+"\n* short"+"\n* int"+"\n* long ");
-                    }else if(l>Short.MIN_VALUE & l<Short.MAX_VALUE){
+                    }else if(l>=Short.MIN_VALUE & l<=Short.MAX_VALUE){
                         System.out.println(s+" can be fitted in:"+
                                 "\n* short"+"\n* int"+"\n* long ");
-                    }else if(l>Integer.MIN_VALUE & l<Integer.MAX_VALUE){
+                    }else if(l>=Integer.MIN_VALUE & l<=Integer.MAX_VALUE){
                         System.out.println(s+" can be fitted in:"+
                                 "\n* int"+"\n* long ");
                     }else {
