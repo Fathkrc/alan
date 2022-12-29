@@ -1,7 +1,4 @@
 package alanhesaplama;
-
-import javax.print.DocFlavor;
-import java.io.BufferedReader;
 import java.util.Scanner;
 
 public class Denemeler {
